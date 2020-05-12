@@ -10,3 +10,7 @@ raiz = math.sqrt(num)
 print(f'\nO valor intríseco da sua ação é {raiz}\n')
 if (float(raiz) > float(cotação)) : print ('segundo a formula de graham o seu ativo esta barato')
 if (float(raiz) < float(cotação)) : print ('segundo a formula de graham o seu ativo esta caro!!')
+
+pl = (float(cotação)/float(lpa))
+print (f'\nA sua ação esta sendo negociada com um pl de {pl}x\n')
+ 
